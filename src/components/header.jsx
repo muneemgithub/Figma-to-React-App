@@ -15,21 +15,21 @@ const Header = () => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav m-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active">Home</a>
+          <a className="nav-link active px-5 fs-5 fw-bold text-decoration-underline">Home</a>
         </li>
         <li className="nav-item dropdown">
-          <a className="nav-link active">
+          <a className="nav-link active px-5 fs-5 fw-bold">
             Services
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active">Contact Us</a>
+          <a className="nav-link active px-5 fs-5 fw-bold">Contact Us</a>
         </li>
       </ul>
       <form className="d-flex mx-5">
           <span className="mt-2 me-3">Login</span>
         
-        <button className="btn btn-outline-success rounded" type="submit">Book Scooter</button>
+        <button className="btn text-white bg-warning rounded-pill" type="submit">Book Scooter</button>
       </form>
     </div>
   </div>
